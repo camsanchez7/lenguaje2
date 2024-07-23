@@ -1,0 +1,166 @@
+html{
+    background-color: whitesmoke;
+    scroll-behavior: smooth;
+}
+h1, h2, h3, h4, h5, h6, p, label, input, a{
+    font-family: "Raleway", sans-serif;
+}
+body{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* -------------------------------- seccion barra nav*/
+.logo-nav{
+    width: 200px;
+    height: 62px;
+}
+.navbar-nav{
+    align-items: center;
+}
+.navbar-collapse{
+    justify-content: center;
+}
+.navbar-expand-lg{
+    padding-left: 15% !important;
+    padding-right: 15% !important;
+}
+.nav-item{
+    font-size: 24px;
+    padding-right: 45px;
+}
+.dropdown-item{
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+    margin: 15px;
+}
+.header{
+    background-image: url(data/Fondo\ portada.png);
+    background-size: cover;
+    background-position: top;
+    color: whitesmoke;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin: 0%;
+}
+.titulo{
+    font-size: 50px !important;
+    font-weight: bolder;
+    padding-bottom: 0px;
+}
+h3, .subtitulos{
+    font-size: 32px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 3%;
+}
+.principal{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 3%;
+    margin-bottom: 3cqh;
+}
+.secundaria{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.siguiendo{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 3%;
+    margin-bottom: 3%; 
+}
+.row-siguiendo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.col-sm-2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-size: 28px;
+    text-align: center;
+}
+.titulo-seccion{
+    font-size: 48px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.subtitulo-24{
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 5%;
+}
+section{
+    margin-top: 0%;
+    padding-left: 15%;
+    padding-right: 15%;
+    background-image: url(data/Fondo.png);
+    background-size: cover;
+    background-position: top;
+}
+.resto-home{
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.preferencias{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.entrevistas{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.notas{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.expertos{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+footer{
+    background-color: rgb(20, 20, 20);
+    color: whitesmoke;
+    margin: 0%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.row-footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.h5{
+    font-size: 20px;
+}
+.icono{
+    padding: 10px;
+}
+/*ACENTOS DE COLOR EN TODAS LAS PALABRAS*/
+.amarillo{
+    color: rgb(231, 193, 25);
+}
+.celeste{
+    color: rgb(29, 162, 255);
+}
+.rojo{
+    color: rgb(169, 4, 4);
+}

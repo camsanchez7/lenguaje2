@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinéfilos</title>
+    <!--TIPOGRAFIA-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!--HOJA DE ESTILOS-->
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+
+<body>
+
+    <!--Barra de navegacion-->
+    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"> <img class="logo-nav" src="data/CINEFILOS-LOGO.png" alt=""></a>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                  NOTICIAS
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Actores</a></li>
+                  <li><a class="dropdown-item" href="#">Directores</a></li>
+                  <li><a class="dropdown-item" href="#">Detrás de escena</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                  OPINIONES
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Análisis</a></li>
+                  <li><a class="dropdown-item" href="#">Reseñas</a></li>
+                  <li><a class="dropdown-item" href="#">Críticas</a></li>
+                  <li><a class="dropdown-item" href="#">Entrevistas</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                  FESTIVALES
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Nacionales</a></li>
+                  <li><a class="dropdown-item" href="#">Internacionales</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">NOSOTROS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><img src="data/LUPA.png" alt=""></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><img src="data/foto perfil.png" alt=""></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+    <!--PORTADA Y SECCION PERSONALIZADA (TRES INSTANCIAS DE INFORMACION)-->
+    <header class="header">
+        <h1 class="titulo">¡Hola de nuevo, <span class="amarillo">Pedro</span>!</h1>
+        
+        <div class="principal">
+            <h2 class="subtitulos">Mientras te fuiste salieron estas noticias</h2>
+            <div class="row">
+                <div class="col-sm-8">
+                    <div class="card1">
+                          <img src="data/CARD GRANDE 1 ETIQUETA.png" alt="">
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="col">
+                        <img src="data/card chica1.png" alt="">
+                    </div>
+                    <br>
+                    <div class="col">
+                        <img src="data/card chica2.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="secundaria">
+            <h3 class="subtitulos">Ponete al día con lo que pasó en la semana</h3>
+            <!-- carrusel crossfade-->
+            <div class="row">
+                <div class="col-sm-4">
+                    <div id="carrusel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="data/carrusel1.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="data/carrusel2.png" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div id="carrusel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="data/carrusel3.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="data/carrusel4.png" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div id="carrusel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="data/carrusel5.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="data/carrusel6.png" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="siguiendo">
+            <h3 class="subtitulos">No te pierdas las últimas notas de tu elenco favorito</h3>
+            <br>
+            <div class="row-siguiendo">
+                <div class="col-sm-2">
+                    <img src="data/sig1.png" alt="">
+                    <br>
+                    <p>Anya Taylor Joy</p>
+                </div>
+                <div class="col-sm-2">
+                    <img src="data/sig2.png" alt="">
+                    <br>
+                    <p>Christopher Nolan</p>
+                </div>
+                <div class="col-sm-2">
+                    <img src="data/sig3.png" alt="">
+                    <br>
+                    <p>Guillermo Francella</p>
+                </div>
+                <div class="col-sm-2">
+                    <img src="data/sig4.png" alt="">
+                    <br>
+                    <p>Quentin Tarantino</p>
+                </div>
+                <div class="col-sm-2">
+                    <img src="data/sig5.png" alt="">
+                    <br>
+                    <p>Samuel L. Jackson</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- TODO UN DIV CON CUATRO SECCIONES CON DISTINTAS CARDS-->
+    <section class="resto-home">
+        <h3 class="subtitulos">Acá tenés lo último en...</h3>
+        <h2 class="titulo-seccion">Plataformas de streaming que seguís</h2>
+
+        <div class="preferencias">
+            <h3 class="subtitulos">Lo más leido relacionado a <span class="celeste">Prime Video</span></h3>
+            <div class="row">
+                <div class="col-sm-8">
+                    <div class="card1">
+                          <img src="data/preferencias1.png" alt="">
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="col">
+                        <img src="data/preferencias2.png" alt="">
+                    </div>
+                    <br>
+                    <div class="col">
+                        <img src="data/preferencias3.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--ESTA ES COMO LA ESTRUCTURA ESTANDAR DE 2 FILAS X 3 CARDS-->
+        <h3 class="subtitulo-24">Leé noticias relacionadas a Prime Video </h3>
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="data/prime1.png" alt="">
+            </div>
+            <div class="col-sm-4">
+                <img src="data/prime2.png" alt="">
+            </div>
+            <div class="col-sm-4">
+                <img src="data/prime3.png" alt="">
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="data/prime4.png" alt="">
+            </div>
+            <div class="col-sm-4">
+                <img src="data/prime5.png" alt="">
+            </div>
+            <div class="col-sm-4">
+                <img src="data/prime6.png" alt="">
+            </div>
+        </div>
+
+        <h3 class="subtitulo-24">Te vimos leyendo <span class="celeste">reseñas</span>, acá tenes algunas más</h3>
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="data/reseña1.png" alt="">
+            </div>
+            <div class="col-sm-4">
+                <img src="data/reseña2.png" alt="">
+            </div>
+            <div class="col-sm-4">
+                <img src="data/reseña3.png" alt="">
+            </div>
+        </div>
+
+        <div class="preferencias">
+            <h3 class="subtitulos">Y porque te gusta <span class="rojo">Netflix</span> te mostramos esto</h3>
+            <div class="row">
+                <div class="col-sm-8">
+                    <div class="card1">
+                          <img src="data/netflix1.png" alt="">
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="col">
+                        <img src="data/netflix2.png" alt="">
+                    </div>
+                    <br>
+                    <div class="col">
+                        <img src="data/netflix3.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h3 class="subtitulo-24">Leé noticias relacionadas a Netflix</h3>
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="data/netflix4.png" alt="">
+            </div>
+            <div class="col-sm-4">
+                <img src="data/netflix5.png" alt="">
+            </div>
+            <div class="col-sm-4">
+                <img src="data/netflix6.png" alt="">
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="data/netflix7.png" alt="">
+            </div>
+            <div class="col-sm-4">
+                <img src="data/netflix8.png" alt="">
+            </div>
+            <div class="col-sm-4">
+                <img src="data/netflix9.png" alt="">
+            </div>
+        </div>
+
+        <h3 class="subtitulo-24">Como sos fanático de los <span class="amarillo">análisis</span>, aca te dejamos algunos más</h3>
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="data/analisis1.png" alt="">
+            </div>
+            <div class="col-sm-4">
+                <img src="data/analisis2.png" alt="">
+            </div>
+            <div class="col-sm-4">
+                <img src="data/analisis3.png" alt="">
+            </div>
+        </div>
+
+        <div class="notas">
+            <h3 class="subtitulos">Además de tus favoritos, tenemos muchas noticias más!</h3>
+            <div class="row">
+                <div class="col-sm-4">
+                    <img src="data/nota1.png" alt="">
+                </div>
+                <div class="col-sm-4">
+                    <img src="data/nota2.png" alt="">
+                </div>
+                <div class="col-sm-4">
+                    <img src="data/nota3.png" alt="">
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-sm-4">
+                    <img src="data/nota4.png" alt="">
+                </div>
+                <div class="col-sm-4">
+                    <img src="data/nota5.png" alt="">
+                </div>
+                <div class="col-sm-4">
+                    <img src="data/nota6.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="expertos">
+            <h3 class="subtitulos">Leé a los expertos de Cinéfilos</h3>
+             <!-- carrusel crossfade-->
+            <div class="row">
+                <div class="col-sm-4">
+                    <div id="carrusel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="data/expertos1.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="data/expertos4.png" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div id="carrusel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="data/expertos2.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="data/expertos5.png" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div id="carrusel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="data/expertos3.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="data/expertos6.png" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="entrevistas">
+            <h3 class="subtitulos">Algunas de nuestras últimas entrevistas</h3>
+            <div class="row">
+                <div class="col-sm-3">
+                    <img src="data/entrevista1.png" alt="">
+                </div>
+                <div class="col-sm-3">
+                    <img src="data/entrevista2.png" alt="">
+                </div>
+                <div class="col-sm-3">
+                    <img src="data/entrevista3.png" alt="">
+                </div>
+                <div class="col-sm-3">
+                    <img src="data/entrevista4.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- SECCION: FOOTER-->
+    <footer>
+        <div class="row-footer">
+            <div class="col-sm-6">
+                <img src="data/logo-footer.png" alt="">
+                <div class="col">
+                    <img class="icono" src="data/redes-ig.png" alt="">
+                    <img class="icono" src="data/redes-fb.png" alt="">
+                    <img class="icono" src="data/redes-yt.png" alt="">
+                    <img class="icono" src="data/redes-tw.png" alt="">
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <h5>Somos una comunidad de jóvenes unidos por el cine.</h5>
+                <h5>Apoyamos el séptimo arte como interlocutor de grandes historias y como el mejor espacio para conocer otras ficciones.</h5>
+            </div>
+        </div>
+    </footer>
+
+  <!--LIBRERIA DE BOOTSTRAP Y FILE JS-->
+  <script src="./datos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

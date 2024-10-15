@@ -1,2 +1,2 @@
-# taller2
-trabajos de taller de diseño 2 (2024)
+# lenguaje2
+trabajo final lenguaje 2 (2024)
